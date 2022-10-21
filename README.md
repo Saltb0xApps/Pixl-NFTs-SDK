@@ -13,20 +13,20 @@ You'll need a license key to initialise & use the SDK.
 
 ### Initialise Pixl SDK -
 ```
-import PixlMintNFTs
+import PixlNFTsSDK
 
 func initialisePixlSDK() {
-    let pixlSDK = PixlMintNFTs.init(license:"")
+    let pixlSDK = PixlNFTsSDK.init(license:"")
     pixlSDK.delegate = self
 }
 ```
 
 ### Creating a smart contract -
 ```
-import PixlMintNFTs
+import PixlNFTsSDK
 
 func smartContract() {
-    let pixlSDK = PixlMintNFTs.init(license:"")
+    let pixlSDK = PixlNFTsSDK.init(license:"")
     pixlSDK.delegate = self
     pixlSDK.createSmartContract(ownerWalletAddress: "0x...", name: "NFT Smart Contract Name", symbol: "PXL")
 }
@@ -40,7 +40,7 @@ func didCompleteNFTSmartContract(success: Bool, data: [String: Any], error: Stri
 
 ### Minting NFTs to a smart contract -
 ```
-import PixlMintNFTs
+import PixlNFTsSDK
 
 //Description of each parameter in the mintNFT function -
 //1. destinationWalletAddress - The wallet address that will own the NFT
@@ -54,7 +54,7 @@ import PixlMintNFTs
 
 
 func mintNFT() {
-    let pixlSDK = PixlMintNFTs.init(license:"")
+    let pixlSDK = PixlNFTsSDK.init(license:"")
     pixlSDK.delegate = self
     pixlSDK.mintNFT(destinationWalletAddress: "0x...", contractAddress:"0x...", nftName: "", nftDescription: "", nftImageURL: "", nftAttachmentURL: "", nftExternalURL: "")
 }
