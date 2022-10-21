@@ -1,0 +1,11 @@
+framework module PixlNFTsSDK {
+  umbrella header "PixlNFTsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PixlNFTsSDK.Swift {
+    header "PixlNFTsSDK-Swift.h"
+    requires objc
+}

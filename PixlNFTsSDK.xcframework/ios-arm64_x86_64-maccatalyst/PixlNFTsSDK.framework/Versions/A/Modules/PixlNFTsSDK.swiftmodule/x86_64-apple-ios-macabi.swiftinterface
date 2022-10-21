@@ -1,0 +1,14 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios15.4-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PixlNFTsSDK
+import Foundation
+@_exported import PixlNFTsSDK
+import Swift
+import _Concurrency
+public class PixlNFTsSDK {
+  public init()
+  public init(license: Swift.String)
+  public func mintNFT(destinationWalletAddress: Swift.String, contractAddress: Swift.String, nftName: Swift.String, nftDescription: Swift.String, nftImageURL: Swift.String, nftAttachmentURL: Swift.String, nftExternalURL: Swift.String)
+  public func createSmartContract(ownerWalletAddress: Swift.String, name: Swift.String, symbol: Swift.String)
+  @objc deinit
+}
