@@ -6,6 +6,6 @@ framework module PixlNFTsSDK {
 }
 
 module PixlNFTsSDK.Swift {
-    header "PixlNFTsSDK-Swift.h"
-    requires objc
+  header "PixlNFTsSDK-Swift.h"
+  requires objc
 }
