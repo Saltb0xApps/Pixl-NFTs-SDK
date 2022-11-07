@@ -7,12 +7,12 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
-public protocol PixlNFTsSDKDelegate {
+public protocol PixlNFTsSDKDelegate : AnyObject {
   func didCompleteNFTMint(success: Swift.Bool, data: [Swift.String : Any], error: Swift.String?)
   func didCompleteNFTSmartContract(success: Swift.Bool, data: [Swift.String : Any], error: Swift.String?)
 }
-public class PixlNFTsSDK {
-  public var delegate: PixlNFTsSDK.PixlNFTsSDKDelegate?
+public class PixlNFTs {
+  weak public var delegate: PixlNFTsSDK.PixlNFTsSDKDelegate?
   public init()
   public init(license: Swift.String)
   public func mintNFT(destinationWalletAddress: Swift.String, contractAddress: Swift.String, nftName: Swift.String, nftDescription: Swift.String, nftImageURL: Swift.String, nftAttachmentURL: Swift.String, nftExternalURL: Swift.String)

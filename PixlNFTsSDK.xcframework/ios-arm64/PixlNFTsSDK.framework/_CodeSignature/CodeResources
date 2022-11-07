@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		niS/JhZ7B4WJ3aatAxLGSCnc3Y4=
+		1hDpBR6jquHSV8kfxxtkawlA6/A=
 		</data>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		VzPAAFgl+eZSz7qkMk057OIo0UI=
+		E6BaJNl0BP7kIMJJSqGNL/rJjsg=
 		</data>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VzPAAFgl+eZSz7qkMk057OIo0UI=
+		E6BaJNl0BP7kIMJJSqGNL/rJjsg=
 		</data>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		r0BIE57+DaAPzzKSDqrkj1W7YlM=
+		8hBn0uPJGeiAHtTiaGhk/Mvnphk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			54xZ5io8uYmO/JS72GkBJuc0Ds7VfmwKzzxPCpRE/JI=
+			af9i/FyzA59JfZOeFQ+lQZf3P8tQza09aDIjfjST+2Q=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqjNIG4+XhAeHYZ7uxH/pa/Tjhu2AYA0spNR5dbwmII=
+			Jxon3/Y6ZexYNNNAQgMWrdKKlsaxpNUK6O4ZiEYYdM0=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqjNIG4+XhAeHYZ7uxH/pa/Tjhu2AYA0spNR5dbwmII=
+			Jxon3/Y6ZexYNNNAQgMWrdKKlsaxpNUK6O4ZiEYYdM0=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ppd6NyznVfAEKC8IB1gApfa7ZNQ2omoQhRIbrVewkx0=
+			9dxPdDwVzs/vWaICWgAy6BO1o7PEcAgEPKY19VY/a5A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
