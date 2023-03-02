@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		aAruwCFgBdZsB0R1hENT8mVGD90=
+		cwQ/RcSyXmGT1I95FocYDdVIn7I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q3QeNFLAw4InypkQEkk4hqlN011ehmJZ4t49pYMgSKY=
+			c7BvGHuogpDxJKWMEfixraxTYRN0P7zGSZoLY3xXyXY=
 			</data>
 		</dict>
 		<key>Headers/PixlNFTsSDK.h</key>
@@ -29,70 +29,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			af9i/FyzA59JfZOeFQ+lQZf3P8tQza09aDIjfjST+2Q=
+			VlKx/kOKrWGk2v1CBbrc+YojPCdxGBBL+AEvFjHXpds=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRfj7OwG/0inW9i5Nvd4/6gq+DF4zjsKr00F0+Mr7RQ=
+			FkI820AtloPlr/e4S3/QxJo+TculwNman3j0vv4dHbA=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iTLd1IDrQwYjR5Uq6Oirh5OsFRmCzSLQeziXGHbUI80=
+			OxG+HQYXOM6ZcBFMutDUG2nczp226YqvCRtj06DTcHM=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRfj7OwG/0inW9i5Nvd4/6gq+DF4zjsKr00F0+Mr7RQ=
+			FkI820AtloPlr/e4S3/QxJo+TculwNman3j0vv4dHbA=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fyLbRPc7nb01xdl0tTnZritlGRJlsZhdIQ9bIBbJ+ms=
+			sQsegKUYNYE7ohdK5zOO3F1tZez8smgZegEREAguIIc=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			af9i/FyzA59JfZOeFQ+lQZf3P8tQza09aDIjfjST+2Q=
+			VlKx/kOKrWGk2v1CBbrc+YojPCdxGBBL+AEvFjHXpds=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g+2nigqyekVdXMywNJQD6rH/BYEiSg0LbtYD2p9jkIY=
+			GMY95N7MhUrqSrUfqN+wXMaopSXoP3NJKpEE6xYA3As=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z9U+FTnohtrNEkPNtJ7rkj+/B0OrHDIJJ9UTr00G9yM=
+			HWo33rJ//iiJe99gVqohptFD553la+eXd7Z7LECka20=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g+2nigqyekVdXMywNJQD6rH/BYEiSg0LbtYD2p9jkIY=
+			GMY95N7MhUrqSrUfqN+wXMaopSXoP3NJKpEE6xYA3As=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0+QSUXD+ctt7hzR7cVw2BuYvOpu6FKEBPbnmOVpnNr0=
+			Ww8cKxTyBxPkXdxfg/InEW3LNjTIpDm7bOXST1Ir87k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ryYd4v4Q6NuJiooJV9SQvHxpyAyyn7/GSkac+i5tkw4=
+			5aEP//FoayAdAJ3wsLez1iWJR3ohpUQ2Cc9zQgZ4MiI=
 			</data>
 		</dict>
 	</dict>

@@ -154,26 +154,33 @@
         "children": [
           {
             "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
+            "name": "mintDelegate",
+            "printedName": "mintDelegate",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate?"
+                "name": "Optional",
+                "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PixlNFTsSDKDelegate",
+                    "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate",
+                    "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvp",
-            "mangledName": "$s11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvp",
+            "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvp",
+            "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvp",
             "moduleName": "PixlNFTsSDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "ReferenceOwnership",
               "AccessControl"
             ],
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -197,8 +204,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvg",
-                "mangledName": "$s11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvg",
+                "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvg",
+                "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvg",
                 "moduleName": "PixlNFTsSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -229,8 +236,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvs",
-                "mangledName": "$s11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvs",
+                "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvs",
+                "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvs",
                 "moduleName": "PixlNFTsSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -247,8 +254,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvM",
-                "mangledName": "$s11PixlNFTsSDK0aB0C8delegateAA0aB11SDKDelegate_pSgvM",
+                "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvM",
+                "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvM",
                 "moduleName": "PixlNFTsSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
