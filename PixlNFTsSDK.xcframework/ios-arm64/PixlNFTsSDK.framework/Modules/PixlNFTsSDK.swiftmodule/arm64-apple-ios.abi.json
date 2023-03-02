@@ -13,255 +13,9 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PixlNFTsSDKDelegate",
-        "printedName": "PixlNFTsSDKDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didCompleteNFTMint",
-            "printedName": "didCompleteNFTMint(success:data:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP18didCompleteNFTMint7success4data5errorySb_SDySSypGSSSgtF",
-            "mangledName": "$s11PixlNFTsSDK0aB11SDKDelegateP18didCompleteNFTMint7success4data5errorySb_SDySSypGSSSgtF",
-            "moduleName": "PixlNFTsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PixlNFTsSDK.PixlNFTsSDKDelegate>",
-            "sugared_genericSig": "<Self where Self : PixlNFTsSDK.PixlNFTsSDKDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didCompleteNFTSmartContract",
-            "printedName": "didCompleteNFTSmartContract(success:data:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP27didCompleteNFTSmartContract7success4data5errorySb_SDySSypGSSSgtF",
-            "mangledName": "$s11PixlNFTsSDK0aB11SDKDelegateP27didCompleteNFTSmartContract7success4data5errorySb_SDySSypGSSSgtF",
-            "moduleName": "PixlNFTsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PixlNFTsSDK.PixlNFTsSDKDelegate>",
-            "sugared_genericSig": "<Self where Self : PixlNFTsSDK.PixlNFTsSDKDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP",
-        "mangledName": "$s11PixlNFTsSDK0aB11SDKDelegateP",
-        "moduleName": "PixlNFTsSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "PixlNFTs",
         "printedName": "PixlNFTs",
         "children": [
-          {
-            "kind": "Var",
-            "name": "mintDelegate",
-            "printedName": "mintDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PixlNFTsSDKDelegate",
-                    "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate",
-                    "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvp",
-            "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvp",
-            "moduleName": "PixlNFTsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PixlNFTsSDKDelegate",
-                        "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate",
-                        "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvg",
-                "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvg",
-                "moduleName": "PixlNFTsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PixlNFTsSDKDelegate",
-                        "printedName": "PixlNFTsSDK.PixlNFTsSDKDelegate",
-                        "usr": "s:11PixlNFTsSDK0aB11SDKDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvs",
-                "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvs",
-                "moduleName": "PixlNFTsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvM",
-                "mangledName": "$s11PixlNFTsSDK0aB0C12mintDelegateAA0aB11SDKDelegate_pSgvM",
-                "moduleName": "PixlNFTsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -313,7 +67,7 @@
           {
             "kind": "Function",
             "name": "mintNFT",
-            "printedName": "mintNFT(destinationWalletAddress:contractAddress:nftName:nftDescription:nftImageURL:nftAttachmentURL:nftExternalURL:)",
+            "printedName": "mintNFT(destinationWalletAddress:contractAddress:nftName:nftDescription:nftImageURL:nftAttachmentURL:nftExternalURL:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -361,11 +115,69 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, [Swift.String : Any], Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, [Swift.String : Any], Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:11PixlNFTsSDK0aB0C7mintNFT24destinationWalletAddress08contractH07nftName0J11Description0J8ImageURL0j10AttachmentN00j8ExternalN0ySS_S6StF",
-            "mangledName": "$s11PixlNFTsSDK0aB0C7mintNFT24destinationWalletAddress08contractH07nftName0J11Description0J8ImageURL0j10AttachmentN00j8ExternalN0ySS_S6StF",
+            "usr": "s:11PixlNFTsSDK0aB0C7mintNFT24destinationWalletAddress08contractH07nftName0J11Description0J8ImageURL0j10AttachmentN00j8ExternalN010completionySS_S6SySb_SDySSypGSSSgtctF",
+            "mangledName": "$s11PixlNFTsSDK0aB0C7mintNFT24destinationWalletAddress08contractH07nftName0J11Description0J8ImageURL0j10AttachmentN00j8ExternalN010completionySS_S6SySb_SDySSypGSSSgtctF",
             "moduleName": "PixlNFTsSDK",
             "declAttributes": [
               "AccessControl"
@@ -375,7 +187,7 @@
           {
             "kind": "Function",
             "name": "createSmartContract",
-            "printedName": "createSmartContract(ownerWalletAddress:name:symbol:)",
+            "printedName": "createSmartContract(ownerWalletAddress:name:symbol:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -399,11 +211,69 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, [Swift.String : Any], Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, [Swift.String : Any], Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:11PixlNFTsSDK0aB0C19createSmartContract18ownerWalletAddress4name6symbolySS_S2StF",
-            "mangledName": "$s11PixlNFTsSDK0aB0C19createSmartContract18ownerWalletAddress4name6symbolySS_S2StF",
+            "usr": "s:11PixlNFTsSDK0aB0C19createSmartContract18ownerWalletAddress4name6symbol10completionySS_S2SySb_SDySSypGSSSgtctF",
+            "mangledName": "$s11PixlNFTsSDK0aB0C19createSmartContract18ownerWalletAddress4name6symbol10completionySS_S2SySb_SDySSypGSSSgtctF",
             "moduleName": "PixlNFTsSDK",
             "declAttributes": [
               "AccessControl"
@@ -426,14 +296,14 @@
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsSDK\/PixlNFTsSDK\/PixlNFTsSDK.swift",
       "kind": "StringLiteral",
-      "offset": 303,
+      "offset": 80,
       "length": 41,
       "value": "\"https:\/\/pixl-sdk.herokuapp.com\/mint-nft\""
     },
     {
       "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsSDK\/PixlNFTsSDK\/PixlNFTsSDK.swift",
       "kind": "StringLiteral",
-      "offset": 397,
+      "offset": 174,
       "length": 49,
       "value": "\"https:\/\/pixl-sdk.herokuapp.com\/create-community\""
     }

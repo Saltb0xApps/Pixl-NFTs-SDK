@@ -7,15 +7,11 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
-public protocol PixlNFTsSDKDelegate : AnyObject {
-  func didCompleteNFTMint(success: Swift.Bool, data: [Swift.String : Any], error: Swift.String?)
-  func didCompleteNFTSmartContract(success: Swift.Bool, data: [Swift.String : Any], error: Swift.String?)
-}
 public class PixlNFTs {
-  public var mintDelegate: PixlNFTsSDK.PixlNFTsSDKDelegate?
+  public typealias CompletionHandler = (_ success: Swift.Bool, _ data: [Swift.String : Any], _ error: Swift.String?) -> Swift.Void
   public init()
   public init(license: Swift.String)
-  public func mintNFT(destinationWalletAddress: Swift.String, contractAddress: Swift.String, nftName: Swift.String, nftDescription: Swift.String, nftImageURL: Swift.String, nftAttachmentURL: Swift.String, nftExternalURL: Swift.String)
-  public func createSmartContract(ownerWalletAddress: Swift.String, name: Swift.String, symbol: Swift.String)
+  public func mintNFT(destinationWalletAddress: Swift.String, contractAddress: Swift.String, nftName: Swift.String, nftDescription: Swift.String, nftImageURL: Swift.String, nftAttachmentURL: Swift.String, nftExternalURL: Swift.String, completion: @escaping PixlNFTsSDK.PixlNFTs.CompletionHandler)
+  public func createSmartContract(ownerWalletAddress: Swift.String, name: Swift.String, symbol: Swift.String, completion: @escaping PixlNFTsSDK.PixlNFTs.CompletionHandler)
   @objc deinit
 }

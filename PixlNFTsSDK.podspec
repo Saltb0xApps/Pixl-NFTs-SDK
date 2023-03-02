@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'PixlNFTsSDK'
-    s.version           = '1.0.1'
+    s.version           = '1.0.3'
     s.summary           = 'Mint NFTs & Create Smart Contracts on Polygon from any iOS app without any blockchain knowledge'
     s.homepage          = 'https://www.pixlapp.xyz'
 
